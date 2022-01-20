@@ -1,9 +1,8 @@
 package HillelTask;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class DegreeRecursion {
+public class PowerRecursion {
     public static void main(String[] args) {
 
         System.out.println("Enter the number you want to raise to a power: ");
