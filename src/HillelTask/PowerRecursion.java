@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class PowerRecursion {
     public static void main(String[] args) {
 
-        System.out.println("Enter the number you want to raise to a power: ");
+        System.out.print("Enter the number you want to raise to a power.");
         int value = readerNumber();
-        System.out.println("Enter the power");
+        System.out.print("Enter the power.");
         int powValue = readerNumber();
         System.out.printf("Number%2d to the power%3d = %3d", value, powValue, pow(value, powValue));
     }
